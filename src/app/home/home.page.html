@@ -1,10 +1,17 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title>Home</ion-title>
   </ion-toolbar>
 </ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item routerLink="/about">Go to About</ion-item>
+    <ion-item routerLink="/contact">Go to Contact</ion-item>
+    <ion-item routerLink="/image">Go to Profile</ion-item>
+    <ion-item routerLink="/news">Go to News</ion-item>
+    <ion-item routerLink="/weather">Go to Weather</ion-item>
+  </ion-list>
+</ion-content>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
